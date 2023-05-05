@@ -7,3 +7,4 @@ tiktoken==0.3.3
 tqdm==4.65.0
 yapf==0.33.0
 numpy==1.24.3
+duckdb==0.7.1

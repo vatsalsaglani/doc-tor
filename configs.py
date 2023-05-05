@@ -12,3 +12,4 @@ OPENAI_CHAT_COMPLETION_URL = os.environ.get(
     "OPENAI_CHAT_COMPLETION_API", "https://api.openai.com/v1/chat/completions")
 OPENAI_CHAT_COMPLETION_MODEL = os.environ.get("OPENAI_CHAT_COMPLETION_MODEL",
                                               "gpt-3.5-turbo")
+DB_PATH = os.environ.get("DB_PATH", "pdf.db")
